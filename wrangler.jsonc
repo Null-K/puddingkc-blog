@@ -1,8 +1,7 @@
 {
-	"name": "vdoing-docs",
-	"compatibility_date": "2026-01-24",
-	"assets": {
-		"directory": "./dist"
-	}
-
+	"name": "puddingkc-blog",
+  	"compatibility_date": "2026-01-24",
+  	"assets": {
+  		"directory": "docs/.vuepress/dist"
+  	}
 }
