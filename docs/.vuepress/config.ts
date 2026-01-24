@@ -28,8 +28,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于我', link: '/about/' },
-      { text: '友情链接', link: '/friends/' },
+      { text: '关于', link: '/about/' },
+      { text: '友链', link: '/friends/' },
       {
         text: '索引',
         link: '/archives/',
@@ -71,7 +71,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //   '图标地址1',
     //   '图标地址2'
     // ],
-    contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
+    // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
 
     // updateBar: { // 最近更新栏
     //   showToArticle: true, // 显示到文章页底部，默认true
@@ -97,7 +97,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     blogger: {
       avatar: '/img/avatar.webp',
       name: 'PuddingKC',
-      slogan: '一个普通人啦',
+      slogan: '布丁，好吃',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -199,10 +199,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             title: '在 Bing 中搜索',
             frontUrl: 'https://cn.bing.com/search?q=',
-          },
-          {
-            title: '通过百度搜索本站的',
-            frontUrl: `https://www.baidu.com/s?wd=site%3A${DOMAIN_NAME}%20`,
           },
         ],
       }
