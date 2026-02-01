@@ -1,9 +1,8 @@
 ---
 title: 如何下载自己上传到 VRChat 的模型文件
 categories: 
-  - 随笔
+  - 教程
 tags: 
-  - 分享
   - 教程
   - VRChat
 date: 2026-02-01 18:19:43
