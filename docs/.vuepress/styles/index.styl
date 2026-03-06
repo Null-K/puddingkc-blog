@@ -70,3 +70,56 @@ body .vuepress-plugin-demo-block__wrapper
   .highlight
     color: $accentColor
     font-weight: bold
+
+// 导航栏站点名称颜色
+.navbar .site-name
+  color #FBBF47 !important
+
+// GitHub 链接显示图标而非文字（仅在电脑端）
+@media (min-width 719px)
+  .nav-links .repo-link
+    font-size 0 // 隐藏文字
+    &::before
+      content '\e972' // GitHub 图标
+      font-family 'iconfont' !important
+      font-size 1.3rem
+      font-style normal
+      -webkit-font-smoothing antialiased
+      -moz-osx-font-smoothing grayscale
+      display inline-block
+      vertical-align -0.15em
+    svg // 隐藏外部链接图标
+      display none
+
+// 首页顶部 banner 图片效果
+.home-wrapper .banner
+  position relative
+  &::before
+    content ''
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    background inherit
+    filter blur(3px)
+    z-index 0
+  &::after
+    content ''
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    background linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 100%)
+    z-index 0
+  .banner-conent
+    position relative
+    z-index 1
+
+// 不蒜子统计样式
+#busuanzi_container_site_pv, #busuanzi_container_site_uv
+  #busuanzi_value_site_pv, #busuanzi_value_site_uv
+    color $accentColor
+    font-weight 600
+    padding 0 3px

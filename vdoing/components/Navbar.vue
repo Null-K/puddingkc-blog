@@ -101,10 +101,13 @@ $navbar-horizontal-padding = 1.5rem
     min-width $navbarHeight - 1.4rem
     margin-right 0.8rem
     vertical-align top
+  .home-link
+    .site-name
+      color #FBBF47 !important
   .site-name
     font-size 1.3rem
     font-weight 600
-    color #FCBF47
+    color #FBBF47 !important
     position relative
   .links
     padding-left 1.5rem

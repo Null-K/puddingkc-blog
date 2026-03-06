@@ -121,7 +121,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2018, // 博客创建年份
       copyrightInfo:
-        'PuddingKC | <a href="https://github.com/Null-K/puddingkc-blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'PuddingKC | <a href="https://github.com/Null-K/puddingkc-blog/blob/master/LICENSE" target="_blank">MIT License</a></br><span id="busuanzi_container_site_pv" style="display:inline;margin-right:10px;">总访问量 <span id="busuanzi_value_site_pv"></span> 次</span><span id="busuanzi_container_site_uv"style="display:inline;">，访客数 <span id="busuanzi_value_site_uv"></span> 人</span></br><span style="font-size:0.95em;opacity:0.8;">统计始于 2026-03-06</span>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
@@ -146,6 +146,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#FCBF47' }], // 移动浏览器主题颜色
+    ['script', { src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async: 'async' }], // 不蒜子统计
     // [
     //   'script',
     //   {
