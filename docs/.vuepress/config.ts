@@ -47,7 +47,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
     // docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
-    editLinks: true, // 启用编辑
+    editLinks: false, // 启用编辑
     editLinkText: '编辑',
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
@@ -121,7 +121,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2018, // 博客创建年份
       copyrightInfo:
-        'PuddingKC | <a href="https://github.com/Null-K/puddingkc-blog/blob/master/LICENSE" target="_blank">MIT License</a></br><span id="busuanzi_container_site_pv" style="display:inline;margin-right:10px;">总访问量 <span id="busuanzi_value_site_pv"></span> 次</span><span id="busuanzi_container_site_uv"style="display:inline;">，访客数 <span id="busuanzi_value_site_uv"></span> 人</span></br><span style="font-size:0.95em;opacity:0.8;">统计始于 2026-03-06</span>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'PuddingKC</br>Powered by Cloudflare<div style="display:none;"><span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span><span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span></div>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
@@ -185,20 +185,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         thirdparty: [
           {
-            title: '在 MDN 中搜索',
+            title: '在 MDN 中搜索 ',
             frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
             behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
           },
           {
-            title: '在 Runoob 中搜索',
+            title: '在 Runoob 中搜索 ',
             frontUrl: 'https://www.runoob.com/?s=',
           },
           {
-            title: '在 Vue API 中搜索',
+            title: '在 Vue API 中搜索 ',
             frontUrl: 'https://cn.vuejs.org/v2/api/#',
           },
           {
-            title: '在 Bing 中搜索',
+            title: '在 Bing 中搜索 ',
             frontUrl: 'https://cn.bing.com/search?q=',
           },
         ],
