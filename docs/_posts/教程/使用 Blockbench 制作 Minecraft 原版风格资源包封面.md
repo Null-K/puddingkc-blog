@@ -6,6 +6,12 @@ tags:
   - 教程
   - Minecraft
   - 资源包
+date: 2026-03-09 23:04:43
+permalink: /pages/789e87/
+sidebar: auto
+author: 
+  name: PuddingKC
+  link: https://github.com/Null-K
 ---
 
 ## 前言
