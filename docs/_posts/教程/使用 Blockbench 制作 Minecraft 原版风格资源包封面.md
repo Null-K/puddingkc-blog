@@ -16,7 +16,7 @@ tags:
 ## 教程
 
 ### 1. 安装 Blockbench
-打开 Blockbench 官网：https://www.blockbench.net/  
+打开 Blockbench 官网：[https://www.blockbench.net/](https://www.blockbench.net/)  
 在首页下方点击蓝色的 `DOWNLOAD` 按钮，下载并安装软件。
 
 ### 2. 创建项目
