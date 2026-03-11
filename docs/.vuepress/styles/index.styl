@@ -123,3 +123,83 @@ body .vuepress-plugin-demo-block__wrapper
     color $accentColor
     font-weight 600
     padding 0 3px
+
+// 404 页面样式
+body
+  .theme-container
+    // 404 页面背景和布局
+    &:has(.theme-vdoing-content > span:first-child)
+      min-height 100vh
+      height 100vh
+      display flex
+      align-items center
+      justify-content center
+      background #27272B !important
+      overflow hidden
+      
+  .theme-vdoing-content
+    // 隐藏原来的 404 文字和提示
+    > span:first-child,
+    > blockquote
+      display none !important
+      
+    // 404 页面样式
+    &:has(> span:first-child)
+      text-align center
+      padding 0
+      margin 0
+      
+      // 图片
+      &::before
+        content ''
+        display block
+        width 600px
+        max-width 90vw
+        height 600px
+        margin 0 auto 3rem
+        background url('/img/404.webp') center center / contain no-repeat
+        animation shake404 4s ease-in-out infinite
+        
+      // 返回按钮
+      > a
+        display inline-block
+        padding 0.6rem 1.5rem
+        background-color rgba(255, 255, 255, 0.1)
+        color #fff !important
+        border-radius 4px
+        border 1px solid rgba(255, 255, 255, 0.2)
+        text-decoration none
+        font-size 0.9rem
+        transition all 0.3s
+        
+        &:hover
+          background-color rgba(255, 255, 255, 0.15)
+          border-color rgba(255, 255, 255, 0.3)
+
+// 轻微晃动动画
+@keyframes shake404
+  0%, 100%
+    transform rotate(0deg)
+  25%
+    transform rotate(1deg)
+  75%
+    transform rotate(-1deg)
+
+@media (max-width 719px)
+  .theme-vdoing-content:has(> span:first-child)
+    padding 1rem
+    &::before
+      width 90vw
+      height 90vw
+      max-width 400px
+      max-height 400px
+      
+@media (max-width 419px)
+  .theme-vdoing-content:has(> span:first-child)
+    padding 1rem
+    &::before
+      width 85vw
+      height 85vw
+      max-width 300px
+      max-height 300px
+      margin-bottom 2rem
