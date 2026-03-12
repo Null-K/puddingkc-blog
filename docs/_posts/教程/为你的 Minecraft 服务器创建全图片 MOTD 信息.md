@@ -22,6 +22,8 @@ author:
 既然可以在文本中显示玩家头颅，那么就可以利用 **自定义皮肤** 进行排列与拼接，从而组合成一整张图片。  
 换句话说，我们完全可以利用这一特性，在 **不使用任何材质包或模组** 的情况下，为服务器制作一个 **完全由图片组成的 MOTD**。
 
+> 该方法仅支持 Java 1.21.9 及以上版本的服务器和客户端。
+
 ## 效果
 
 ![效果展示](/img/blogs/motd_1.webp)  
@@ -42,4 +44,4 @@ author:
 如果觉得以上步骤操作起来比较繁琐，我也制作了一个 **Paper 插件**，可以自动完成这些过程。  
 只需要将完整图片放入插件目录中，插件就会自动完成 **图片切割、头颅生成以及 MOTD 排列**，从而快速生成对应的图片 MOTD。
 
-下载地址：[https://www.minebbs.com/resources/headosaic-motd.15638/](https://www.minebbs.com/resources/headosaic-motd.15638/)
+> 下载地址：[https://www.minebbs.com/resources/headosaic-motd.15638/](https://www.minebbs.com/resources/headosaic-motd.15638/)

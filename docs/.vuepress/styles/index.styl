@@ -138,9 +138,8 @@ body
       overflow hidden
       
   .theme-vdoing-content
-    // 隐藏原来的 404 文字和提示
-    > span:first-child,
-    > blockquote
+    // 隐藏原来的 404 文字
+    > span:first-child
       display none !important
       
     // 404 页面样式
@@ -148,6 +147,10 @@ body
       text-align center
       padding 0
       margin 0
+      
+      // 只隐藏 404 页面的提示文字
+      > blockquote
+        display none
       
       // 图片
       &::before
