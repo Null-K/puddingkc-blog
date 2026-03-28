@@ -121,7 +121,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2018, // 博客创建年份
       copyrightInfo:
-        'PuddingKC</br>Powered by Cloudflare ❤<div style="display:none;"><span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span><span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span></div>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'PuddingKC</br>Powered by Cloudflare ❤<div style="display:none;">今日总访问量 <span id="busuanzi_today_pv">加载中...</span> 次 今日总访客数 <span id="busuanzi_today_uv">加载中...</span> 人 本站总访问量 <span id="busuanzi_site_pv">加载中...</span> 次 本站总访客数 <span id="busuanzi_site_uv">加载中...</span> 人 本页总阅读量 <span id="busuanzi_page_pv">加载中...</span> 次 本页总访客数 <span id="busuanzi_page_uv">加载中...</span> 人</div>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
@@ -146,7 +146,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#FCBF47' }], // 移动浏览器主题颜色
-    ['script', { src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async: 'async' }], // 不蒜子统计
+    ['script', { src: '//cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js', defer: 'defer' }], // 不蒜子统计
     // [
     //   'script',
     //   {
