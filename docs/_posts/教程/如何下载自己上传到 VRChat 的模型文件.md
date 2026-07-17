@@ -34,10 +34,12 @@ author:
 ## 使用教程
 
 > 官方仓库：https://github.com/Null-K/VRChatVRCADownloader  
-下载地址：https://github.com/Null-K/VRChatVRCADownloader/blob/main/build/vrchat_vrca_downloader.exe
+下载地址：https://github.com/Null-K/VRChatVRCADownloader/releases
 
-操作步骤：
-1. 点击上方下载链接，保存 `vrchat_vrca_downloader.exe` 文件
+下发操作步骤已弃用，最新版软件改为纯 GUI 操作。打开界面后登录账号既可使用。
+
+~~操作步骤：~~
+1. 点击上方下载链接，保存 `vrchat-vrca-downloader.exe` 文件
 2. 打开浏览器，进入 [VRChat](https://vrchat.com) 官网，登录你要下载模型的账号
 3. 按 **F12** 打开开发者工具，切换到 `应用`（Application）标签
 
@@ -48,15 +50,6 @@ author:
 6. 打开下载好的下载器，把复制的 auth 值粘贴到软件左上角的输入框
 7. 点击 `获取模型` 按钮，等待列表刷新
 8. 在列表中双击你想要的模型，即可开始下载
-
-## 其他功能
-
-软件支持下载完成后自动调用 AssetRipper 进行解析，操作方法如下：
-
-1. 下载并安装 [AssetRipper](https://github.com/AssetRipper/AssetRipper/releases)
-2. 启动 AssetRipper
-3. 在 AssetRipper 控制台窗口中找到类似 `http://127.0.0.1:xxxx` 的后台地址，记下其中的端口号（xxxx部分）
-4. 将该端口号填入下载器右上角的输入框中
 
 ## 免责声明
 
