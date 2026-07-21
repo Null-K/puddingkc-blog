@@ -36,7 +36,7 @@ author:
 > 官方仓库：https://github.com/Null-K/VRChatVRCADownloader  
 下载地址：https://github.com/Null-K/VRChatVRCADownloader/releases
 
-下发操作步骤已弃用，最新版软件改为纯 GUI 操作。打开界面后登录账号既可使用。
+下方操作步骤已弃用，最新版软件改为纯 GUI 操作。打开界面后登录账号既可使用。
 
 ~~操作步骤：~~
 1. 点击上方下载链接，保存 `vrchat-vrca-downloader.exe` 文件
