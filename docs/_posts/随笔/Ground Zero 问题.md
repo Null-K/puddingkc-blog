@@ -7,6 +7,10 @@ tags:
   - 杂谈
 title: Ground Zero 问题
 permalink: /pages/ground-zero-problem/
+date: 2026-07-17 18:59:26
+author: 
+  name: PuddingKC
+  link: https://github.com/Null-K
 ---
 
 ## 什么是 Ground Zero Problem
